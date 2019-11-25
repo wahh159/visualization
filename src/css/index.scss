@@ -1,0 +1,13 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+$w:1200px;
+$h:800px;
+#root{
+    .main{
+        width: $w;
+        height: $h;
+        margin: 0 auto;
+    }
+}
