@@ -81,6 +81,7 @@ class Bezier {
      * @param {Array} cp1 控制点1
      * @param {Array} cp2 控制点2
      */
+    //t是点的位置比例0到1   p1,c1,c2,p2[起始点x， y]，[结束点x， 起始点y],[起始点x， 结束点y], [结束点x， y]， 获取控制点
     threeBezier(t, p1, cp1, cp2, p2) {
         const [x1, y1] = p1;
         const [x2, y2] = p2;
